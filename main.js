@@ -36,7 +36,7 @@ function gotPoses(results)
         console.log(leftWristX);
         rightWristX = results[0].pose.rightWrist.x;
         console.log(rightWristX);
-        difference = Math.floor(rightWristX - leftWristX);
+        difference = Math.floor(leftWristX-rightWristX);
         console.log(difference);
         textSize(difference);
         text("Sarvesh", 700, 200);
