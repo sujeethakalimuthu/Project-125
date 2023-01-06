@@ -1,0 +1,40 @@
+.note
+{
+    color:black;
+    font-size:15px;
+}
+.heading
+{
+    font-size:30px;
+    width:100%;
+    margin:0px;
+    box-shadow:5px 5px 5px grey;
+    font-family: 'Share Tech', sans-serif;
+}
+.copyright-footer
+{
+    bottom:0mm;
+    position:fixed;
+    background-color:greenyellow;
+    color:red;
+    font-family:'Share Tech', sans-serif;
+    border-style:double;
+    border-color:blue;
+    font-size: large;
+    line-height:3;
+    text-align:center;
+    width:100%;
+    border-radius: 10px;
+    border-width: 5px;
+}
+canvas
+{
+    border:5px double rebeccapurple;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px royalblue;
+}
+body
+{
+    background-position:center;
+    background-repeat: no-repeat;
+}
